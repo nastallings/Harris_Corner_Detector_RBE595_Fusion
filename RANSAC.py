@@ -51,9 +51,6 @@ def RANSAC(k1, k2, matches, iterations=200, threshold=500):
     input_points = input_points.astype(np.float32)
     output_points = output_points.astype(np.float32)
 
-    print(input_points.shape)
-    print(output_points.shape)
-
     H = cv2.getPerspectiveTransform(input_points, output_points)
 
     return H, matches[max_value]

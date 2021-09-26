@@ -6,10 +6,10 @@ from RANSAC import RANSAC
 import match_features as mf
 
 # Load Images
-# image_1 = cv2.imread("scene_2.jpeg")
-# image_2 = cv2.imread("scene_3.jpeg")
-# image_3 = cv2.imread("scene_1.jpeg")
-# image_4 = cv2.imread("scene_4.jpeg")
+image_1 = cv2.imread("scene_2.jpeg")
+image_2 = cv2.imread("scene_3.jpeg")
+image_3 = cv2.imread("scene_1.jpeg")
+image_4 = cv2.imread("scene_4.jpeg")
 #
 # # Detect corners using Harris
 # output_1, num_points_1 = HCD.harris_corner_detector(image_1)
